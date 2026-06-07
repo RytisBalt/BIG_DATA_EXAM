@@ -361,6 +361,6 @@ folium.Marker(
     icon=folium.Icon(color="red", icon="exclamation-sign", prefix="glyphicon")
 ).add_to(m)
 
-output_path = "collision_map.html"
+output_path = "output/collision_map.html"
 m.save(output_path)
 print(f"Saved → {output_path}")
