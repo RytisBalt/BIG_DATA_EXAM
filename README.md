@@ -22,6 +22,10 @@ Marine_Project_Workspace/
 
 🔗 **Docker Hub Repository:** [rytisbalt/marine-collision-app](https://hub.docker.com/repository/docker/rytisbalt/marine-collision-app/general)
 
+To run this image run this command:
+```
+docker run --rm -v ${PWD}:/app marine-collision-app
+```
 
 ## OUTPUT ##
 
