@@ -3,19 +3,20 @@
 
 Before running the application, you need to ensure your local directory structure is set up correctly. The system processes massive datasets locally, so your data must be placed in a specific folder relative to the execution context.
 
-### Expected Directory Structure
+## Expected Directory Structure
 
 Your project workspace should be structured exactly like this before and after execution:
 
-📁 Marine_Project_Workspace/
- ┣ 📁 Large_Data/             <── Create this folder manually
- ┃   ┣ 📄 ais_data_12.csv  <── Place your raw tracking data partitions here
- ┣ 📁 output/                 <── Created manually or automatically
- ┃   ┗ 🌐 collision_map.html   <── 🌟 THE PROCESSED INTERACTIVE MAP LANDS HERE!
- ┣ 📄 Dockerfile              <── App container blueprint
- ┣ 📄 Exam.py                 <── Main PySpark mapping script
- ┗ 📄 requirements.txt        <── Python dependencies
-
+```
+Marine_Project_Workspace/
+├── Large_Data/                     # Create this folder manually
+│   └── ais_data_12.csv             # Place your raw tracking data here
+├── output/                         # Created manually or automatically
+│   └── collision_map.html          # ⭐ THE PROCESSED INTERACTIVE MAP LANDS HERE!
+├── Dockerfile                      # App container blueprint
+├── Exam.py                         # Main PySpark mapping script
+└── requirements.txt                # Python dependencies
+```
 
  ## DOCKER HUB IMAGE ##
 
